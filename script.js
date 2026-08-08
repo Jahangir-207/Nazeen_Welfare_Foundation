@@ -150,10 +150,7 @@ function closeVolunteerModal() {
   volunteerModal.classList.remove('active');
 }
 
-volunteerButtons.forEach(btn => btn.addEventListener('click', (e) => {
-  e.preventDefault();
-  openVolunteerModal();
-}));
+
 
 volunteerBackdrop?.addEventListener('click', closeVolunteerModal);
 volunteerClose?.addEventListener('click', closeVolunteerModal);
